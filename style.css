@@ -1,0 +1,35 @@
+/* Body Styling */
+body {
+    background-color:lightblue;
+    font-family:Arial;
+}
+/* Heading Styling */
+h1{
+    color:darkblue;
+    font-size:40px;
+    text-align:center;
+    font-family:Arial;
+}
+h2{
+    color:orange;
+    font-size:30px;
+    font-weight:bold;
+    font-family:Arial;
+}
+h3{
+    color:black;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
+/* Paragraph Styling */
+p{
+    color:green;
+    font-family:Arial;
+    text-align:center;
+}
+/* Links Styling */
+a{
+    color:purple;
+    font-family:Arial;
+}
