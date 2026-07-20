@@ -22,14 +22,53 @@ h3{
     font-weight:bold;
     text-align:center;
 }
+#summary{
+    color:darkgreen;
+}
+.h3font{
+    color:maroon;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+}
 /* Paragraph Styling */
 p{
     color:green;
     font-family:Arial;
     text-align:center;
 }
+.important{
+    color:red;
+    font-family:Arial;
+    text-align:center;
+    font-weight:bold;
+}
 /* Links Styling */
 a{
     color:purple;
     font-family:Arial;
+}
+a:hover{
+    color:red;
+    font-family:Arial;
+}
+/* Article Styling */
+article{
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+}
+/* About ul styling */
+.list-center{
+    list-style-type:none;
+    padding:0;
+    text-align:center;
+}
+/* Section Styling */
+.sectionedit{
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+    margin-bottom:20px;
 }
