@@ -72,3 +72,66 @@ article{
     margin:10px;
     margin-bottom:20px;
 }
+/*CSS Day 3 Card Styling*/
+.card {
+    width: 1110px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px auto;
+}
+/*Display Practice*/
+.display-demo{
+    display:block;
+    background-color:lightgreen;
+    margin:10px 0;
+}
+
+.inline-demo{
+    display:inline;
+    background-color:yellow;
+}
+
+.inline-block-demo{
+    display:inline-block;
+    background-color:orange;
+    width:150px;
+    height:50px;
+    margin:10px;
+    text-align:center;
+    line-height:50px;
+}
+
+.hide{
+    display:none;
+}
+
+.chlng1-demo{
+    display:inline-block;
+    width:120px;
+    height:50px;
+    border:2px solid black;
+    border-radius:10px;
+    text-align:center;
+    margin:10px;
+}
+
+.chlng2-demo{
+    display:block;
+    margin:10px;
+}
+
+.chlng3-demo{
+    display:block;
+    width:120px;
+    height:50px;
+    line-height:50px;
+    background-color:lightblue;
+    border:2px solid black;
+    border-radius:10px;
+    text-align:center;
+    margin:8px 0;
+    padding:0;
+}
