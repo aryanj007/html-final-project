@@ -206,3 +206,25 @@ article{
     
     top:0
 }
+
+/*CSS Day 5 Flexbox Practice*/
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    align-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 0;
+}
+.flex-item {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    line-height: 80px;
+}
