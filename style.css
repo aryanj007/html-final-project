@@ -228,3 +228,88 @@ article{
     margin: 10px;
     line-height: 80px;
 }
+
+/*CSS Day 6 Flex Wrap Practice*/
+.flex-wrap-container {
+    display: flex;
+    flex-wrap:nowrap;
+    width:700px;
+    border: 2px solid black;
+    padding: 10px;
+    gap: 10px 30px;
+    /*pehele row gap he fir column gap*/
+}
+.flex-wrap-item {
+    width: 80px;
+    height: 80px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 80px;
+    flex-shrink: 0;
+}
+
+.item1{
+    order: 2;
+}
+.item2{
+    order: 4;
+}
+.item3{
+    order: 1;
+}
+.item4{
+    order: 6;
+}
+.item5{
+    order: 3;
+}
+.item6{
+    order: 5;
+}
+
+.grow-container {
+    display: flex;
+    width: 700px;
+    border: 2px solid black;
+}
+.grow-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.item1 {
+    flex-grow: 8;
+}
+.item2 {
+    flex-grow: 1;
+}
+.item3 {
+    flex-grow: 0;
+}
+
+.shrink-container {
+    display: flex;
+    width: 700px;
+    border: 2px solid black;
+}
+.shrink-item {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.shrink1 {
+    flex-shrink: 1;
+}
+.shrink2 {
+    flex-shrink: 1;
+}
+.shrink3 {
+    flex-shrink: 1;
+}
