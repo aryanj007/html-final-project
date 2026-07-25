@@ -313,3 +313,18 @@ article{
 .shrink3 {
     flex-shrink: 1;
 }
+
+/*CSS Day 7 Grid Practice*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    gap: 10px;
+}
+.grid-item{
+    background-color: lightblue;
+    border: 2px solid black;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
