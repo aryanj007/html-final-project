@@ -317,14 +317,17 @@ article{
 /*CSS Day 7 Grid Practice*/
 .grid-container {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-
+    grid-template-columns: repeat(2,150px);
+    grid-template-row: repeat(2,150px);
+    border:2px solid black;
     gap: 10px;
+    
+    justify-content:center;
+    align-content:end;
 }
 .grid-item{
-    background-color: lightblue;
+    background-color: lightgreen;
     border: 2px solid black;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
+    wifth:80px;
+    height:80px;
 }
