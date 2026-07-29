@@ -317,17 +317,80 @@ article{
 /*CSS Day 7 Grid Practice*/
 .grid-container {
     display: grid;
+    height:500px;
+    width:700px;
     grid-template-columns: repeat(2,150px);
     grid-template-row: repeat(2,150px);
     border:2px solid black;
-    gap: 10px;
-    
+    gap: 20px;
+   
     justify-content:center;
-    align-content:end;
+    align-content:center;
+    /*place-content:center;in dono ka kam karega*/
 }
 .grid-item{
     background-color: lightgreen;
     border: 2px solid black;
     wifth:80px;
     height:80px;
+}
+
+.grid-container2{
+    display:grid;
+    background-color:yellow;
+
+    grid-template-columns:repeat(3,120px);
+    grid-template-rows:repeat(2,120px);
+
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+
+    gap:10px;
+
+    border:2px solid black;
+    padding:10px;
+}
+.grid-item{
+    background:lightblue;
+    border:2px solid black;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:25px;
+}
+.item1{
+    order:0;
+    grid-area:1/1/1/3;
+/*column 1/3 or row 1/1 ko aise bhi likh sakte hai grid area se*/
+}
+.item2{
+    order:0;
+    grid-row:span;
+}
+.item3{
+    order:0;
+}
+.item4{
+    order:0;
+}
+
+
+.header{
+    grid-area:header;
+}
+
+.sidebar{
+    grid-area:sidebar;
+}
+
+.main{
+    grid-area:main;
+}
+
+.footer{
+    grid-area:footer;
 }
