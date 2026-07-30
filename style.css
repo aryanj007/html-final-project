@@ -394,3 +394,48 @@ article{
 .footer{
     grid-area:footer;
 }
+
+.box{
+    width:400px;
+    height:200px;
+    background:red;
+}
+
+@media (min-width:768px){
+.box{
+    width:100%;
+    background:green;
+}
+}
+
+.query{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    width:33.33%;
+}
+
+@media (max-width:768px){
+.card{
+    width:100%;
+}
+.query{
+    flex-direction:column;
+}
+}
+
+.parent{
+    width:800px;
+    height:200px;
+    font-size:20px;
+    background:lightgray;
+}
+
+.child{
+    width:12vw;
+    height:5vh;
+    font-size:2em;
+    background:orange;
+}
