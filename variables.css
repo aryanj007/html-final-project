@@ -1,0 +1,17 @@
+:root{
+    --primary-color:steelblue;
+    --text-color:white;
+    --radius: 20px;
+    --box-width: 400px;
+}
+
+.box{
+    width: var(--box-width);
+    height: 120px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--radius);
+}
